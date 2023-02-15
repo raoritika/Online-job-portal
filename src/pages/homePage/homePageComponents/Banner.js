@@ -11,7 +11,7 @@ const Banner = () => {
     setCount(1);
   }, [count]);
   return (
-    <section id="banner" className="bg-[#E0FFFF] py-16">
+    <section id="banner" className="bg-[#BA94D1] py-16">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center items-center gap-4 container mx-auto px-5">
         {/*.......Banner info data start........*/}
         <div className="col-span-1 md:col-span-2">
@@ -21,13 +21,13 @@ const Banner = () => {
             </h1>
             {/* .....typing animation...... */}
             <TypeAnimation
-              sequence={["with jobify!", 1000, ""]}
+              sequence={["with Naukrify!", 1000, ""]}
               speed={75} // Must be in range between 1 and 99!
               wrapper="h2"
               repeat={Infinity}
-              className="text-3xl sm:text-5xl md:text-6xl font-bold text-[blue] mb-3 md:mb-5 lg:mb-8"
+              className="text-3xl sm:text-5xl md:text-6xl font-bold text-[yellow] mb-3 md:mb-5 lg:mb-8"
             />
-            <p className="font-bold text-blue text-base md:text-xl">
+            <p className="font-bold text-black text-base md:text-xl">
               Search Over 999 New Jobs Today!
             </p>
           </div>
@@ -38,16 +38,16 @@ const Banner = () => {
             <p className="text-sm md:text-xl font-bold">
               Trending Jobs Keywords:
             </p>
-            <p className="bg-success p-1 text-white cursor-pointer rounded-lg text-sm ">
+            <p className="bg-success p-1 text-black cursor-pointer rounded-lg text-sm ">
               Web Designer
             </p>
-            <p className="bg-success p-1 text-white cursor-pointer rounded-lg text-sm ">
+            <p className="bg-success p-1 text-black cursor-pointer rounded-lg text-sm ">
               Web Development
             </p>
-            <p className="bg-success p-1 text-white cursor-pointer rounded-lg text-sm ">
+            <p className="bg-success p-1 text-black cursor-pointer rounded-lg text-sm ">
               Android Developer
             </p>
-            <p className="bg-success p-1 text-white cursor-pointer rounded-lg text-sm ">
+            <p className="bg-success p-1 text-black cursor-pointer rounded-lg text-sm ">
               IOS Developer
             </p>
           </div>

@@ -74,7 +74,7 @@ const SearchComponent = () => {
             <select
               required
               defaultValue=""
-              className="select select-bordered w-full rounded-none text-[blue]"
+              className="select select-bordered w-full rounded-none text-[black]"
               {...register("location")}
             >
               <option value="" disabled>
@@ -94,7 +94,7 @@ const SearchComponent = () => {
             <select
               required
               defaultValue=""
-              className="select select-bordered w-full rounded-none text-[blue]"
+              className="select select-bordered w-full rounded-none text-[black]"
               {...register("category")}
             >
               <option value="" disabled>
@@ -105,7 +105,7 @@ const SearchComponent = () => {
             {/*........search button..........*/}
             <button
               type="submit"
-              className="btn rounded-none w-full duration-700 bg-[blue] border-[blue] hover:bg-accent py-3 text-white cursor-pointer font-bold"
+              className="btn rounded-none w-full duration-700 bg-[grey] border-[black] hover:bg-accent py-3 text-white cursor-pointer font-bold"
             >
               <FaSearch className="mr-2" /> Search
             </button>
